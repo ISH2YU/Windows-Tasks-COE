@@ -14,4 +14,13 @@ Now we analyse the for loop in the code and try to reverse it in python such tha
 
 ![alt text](pythoncode.png)
 
-There we Got the #FLAG
+There we Got the FLAG , HURRAYYYYYYY
+Now lets verify whether its correct with C code 
+
+
+![alt text](verified.png)
+
+
+Hence Proved 
+
+**FLAG : WOW_you_9oT_7H3_f149**
