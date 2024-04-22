@@ -1,3 +1,8 @@
 # VulnServer 
 
-We Need Two Virtual Machines Windows 10 , Kali . Download everything as per [this](https://classroom.google.com/u/3/c/NjcyNDQ4MzM1MjM5/a/NjYwNDU4Mzk2NzM1/details)
+We Need Two Virtual Machines Windows 10 , Kali . Download VulnServer [Here](https://thegreycorner.com/vulnserver.html)
+In the Windows VM open Cmd go to `vulnserver` directory < Run `vulnserver.exe`
+In the Kali
+```sh
+nc -nv 192.168.242.130 9999
+```
