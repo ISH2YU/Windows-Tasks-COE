@@ -10,7 +10,8 @@ we get this CODE below
 
 ![alt text](modified_C.png)
 
-Now we analyse the for loop in the code and try to reverse it in python such that when we input string `WPUbutof1xJj+U%nVB"L` we get the output as input of C code 
+Now we analyse the for loop in the code and try to reverse it in python ,
+such that when we input string : `WPUbutof1xJj+U%nVB"L` we get the output as input of C code 
 
 ![alt text](pythoncode.png)
 
