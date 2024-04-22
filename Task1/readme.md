@@ -22,7 +22,9 @@ We then Notice that it crashes after a bunch of inputs
 ![alt text](spkcrash.png)
 
 Now that we got a Crash , Its time to Analyse the Crash for that we use Immunity Debugger [Download](https://www.immunityinc.com/products/debugger/)
+
 Open the Vulnserver.exe in Immunity Debugger.
+
 To Recreate the Crash we write a Python Script : `exploit3.py`
 
 ```python
