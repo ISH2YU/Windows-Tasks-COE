@@ -26,6 +26,7 @@ Now that we got a Crash , Its time to Analyse the Crash for that we use Immunity
 Open the Vulnserver.exe in Immunity Debugger.
 
 To Recreate the Crash we write a Python Script : `exploit3.py`
+We input 5000 A's so that it crashes the vulnserver
 
 ```python
 #!/usr/bin/python
