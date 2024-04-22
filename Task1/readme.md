@@ -4,7 +4,7 @@ We Need Two Virtual Machines Windows 10 , Kali . Download VulnServer [Here](http
 
 In the Windows VM open Cmd go to `vulnserver` directory < Run `vulnserver.exe`.
 
-In the Kali , write this command < HELP
+In the Kali , write this command below < HELP
 ```sh
 nc -nv 192.168.242.130 9999
 ```
