@@ -23,6 +23,6 @@ Now lets verify whether its correct with C code
 ![alt text](verified.png)
 
 
-Hence Proved 
+Crazy EZy GG!
 
 **FLAG : WOW_you_9oT_7H3_f149**
