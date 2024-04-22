@@ -17,4 +17,6 @@ run the vulnserver < write a command in kali
 ```sh
 generic_send_tcp <windows vm ip> 9999 test.spk 0 0
 ```
+We then Notice that it crashes after a bunch of inputs 
 
+![alt text](spkcrash.png)
