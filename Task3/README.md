@@ -5,7 +5,7 @@ IDA View
 ![alt text](Pseudocode_IDA.png)
 
 We open the `figure_this_out_pt2.exe` in IDA and open its Pseudocode from View < SubViews < generate Pseudocode .
-then we analyse all the for loops and pseudocode make necessary changes 
+then we analyse all the for loops in the disassembly and pseudocode make necessary changes 
 
 we get this CODE below 
 
