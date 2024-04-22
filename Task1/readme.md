@@ -10,3 +10,11 @@ nc -nv 192.168.242.130 9999
 ```
 Now we have to Find a Crash we do that by Fuzzing , we write a code in `test.spk`.
 
+![alt text](testspk.png)
+
+run the vulnserver < write a command in kali 
+
+```sh
+generic_send_tcp <windows vm ip> 9999 test.spk 0 0
+```
+
