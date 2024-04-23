@@ -46,5 +46,19 @@ s.send("TRUN /.:/" + buffer)
 print s.recv(1024)
 s.close()
 ```
+Close your CMD in Windows and Open the Vulnserver.exe file in the Immunity Debugger.
+When it loads up Press the Play button 
+
+Then Go to your Kali Terminal and type this command below 
+```sh
+python2 exploit3.py
+```
+After running Press Ctrl + C 
+
+Now Check your Immunity Debugger , You will see something like this 
+
+![alt text](exp3_immunity.png)
+
+Now that we Know our script now its time to modify the script.
 
 
