@@ -80,7 +80,12 @@ In Kali write this command with value of RIP address
 Offset = 2003
 We now input 2003 - A , 4 - B , rest - C to check if B go into RIP
 
-Write the next exploit as per `exploit5.py` , Restart your Immunity debugger - play it and Run your exploit5 script in kali . Now again check your immunity debugger 
+Write the next exploit as per `exploit5.py` , Restart your Immunity debugger - play it and Run your exploit5 script in kali . Now again check your immunity debugger  
+
+We can see that RIP register is Overwritten with B's and we successfully hijacked it !
+
+![alt text](exp5_immunity.png)
+
 
 
 
