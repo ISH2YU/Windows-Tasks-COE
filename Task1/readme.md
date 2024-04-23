@@ -108,7 +108,7 @@ type these commands in your Immunity Debugger
 ```
 ![alt text](jmp_esp.png)
 
-You will see that best address we can use is 0x625011AF. Lets code it into our next exploit
+You will see that best address we can use is `0x625011AF`. Lets code it into our next exploit
 
 Do note that while coding it we have to write it in Little Endian manner as per in `exploit7.py`
 
