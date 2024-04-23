@@ -69,6 +69,18 @@ Restart the Immunity Debugger by pressing `<<` this button and play it again.
 
 Run your python file similar as you did for exploit3.py.Now again press Ctrl + C and check for crash in your Immunity debugger.
 
-you will see 
+Note Down the RIP value we need it for calculating the Offset
+
+![alt text](exp4_immunity.png)
+
+In Kali write this command with value of RIP address 
+```sh
+/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l 5000 -q 386F4337
+```
+Offset = 2003
+We now input 2003 - A , 4 - B , rest - C to check if B go into RIP
+
+Write the next exploit as per `exploit5.py` , Restart your Immunity debugger - play it and Run your exploit5 script in kali . Now again check your immunity debugger 
+
 
 
