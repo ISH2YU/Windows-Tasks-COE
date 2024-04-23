@@ -86,6 +86,15 @@ We can see that RIP register is Overwritten with B's and we successfully hijacke
 
 ![alt text](exp5_immunity.png)
 
+In your Immunity Debugger get the byte array for Bad character as per this image below 
+
+![alt text](bad_char.png)
+
+Put the Bad Characters in your script as per  `exploit6_bad.py` . restart the Immunity Debugger and run the script
+
+You will notice that that "\x00" is bad character so we remove it , restart Immunity and run again ( I have already removed "\x00" in  `exploit6_bad.py` of repo)
+It works Fine.
+
 
 
 
