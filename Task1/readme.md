@@ -55,10 +55,20 @@ python2 exploit3.py
 ```
 After running Press Ctrl + C 
 
-Now Check your Immunity Debugger , You will see something like this 
+Now Check your Immunity Debugger , You will see crash has happened like this 
 
 ![alt text](exp3_immunity.png)
 
-Now that we Know our script now its time to modify the script.
+We need to Identify Offset write command below in kali
+```sh
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 5000
+```
+Input the pattern exactly as given in `exploit4.py` file.
+
+Restart the Immunity Debugger by pressing `<<` this button and play it again.
+
+Run your python file similar as you did for exploit3.py.Now again press Ctrl + C and check for crash in your Immunity debugger.
+
+you will see 
 
 
