@@ -122,6 +122,15 @@ Restart the Immunity Debugger and In that ( LISTEN PROPERLY )
 
 Check if your EIP is at 625011AF , Now beside the pause button there button in which you can step into memory address press it.
 
+![alt text](exp7_immunity.png)
+
+![alt text](exp7_immunity_inside.png)
+
+TIME TO WRITE THE FINAL EXPLOIT !!
+
+
+
+
 
 
 
