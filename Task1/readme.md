@@ -93,7 +93,24 @@ In your Immunity Debugger get the byte array for Bad character as per this image
 Put the Bad Characters in your script as per  `exploit6_bad.py` . restart the Immunity Debugger and run the script
 
 You will notice that that "\x00" is bad character so we remove it , restart Immunity and run again ( I have already removed "\x00" in  `exploit6_bad.py` of repo)
+
 It works Fine.
+
+NOW WE NEED TO FIND THE JUMP ESP TO OVERWRITE THE RETURN ADDRESS TO VALUE POINTING TOWARDS OUR MEMORY 
+
+type these commands in your Immunity Debugger 
+```sh
+!mona modules
+```
+
+```sh
+!mona find -s "\xff\xe4" -m essfunc.dll
+```
+![alt text](jmp_esp.png)
+
+You will see that best address we can use is 0x625011AF. Lets code it into our next exploit
+
+Do note that while coding it we have to write it in Little Endian manner as per in `exploit7.py`
 
 
 
