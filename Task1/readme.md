@@ -112,6 +112,18 @@ You will see that best address we can use is 0x625011AF. Lets code it into our n
 
 Do note that while coding it we have to write it in Little Endian manner as per in `exploit7.py`
 
+Restart the Immunity Debugger and In that ( LISTEN PROPERLY )
+
+1. Right click < Go To < Expression < Write `625011AF`
+   
+2. Right Click at 625011AF < Set Breakpoint < toggle
+
+3. Run it 
+
+Check if your EIP is at 625011AF , Now beside the pause button there button in which you can step into memory address press it.
+
+
+
 
 
 
